@@ -1,8 +1,8 @@
 #
-# 🚀 NST SPORTS CLUB :-
+# 🚀 LOCAL SPORTS CLUB :-
 ## 🏡 Home:-
 
-Welcome to the NST sports club! We are a community-oriented club dedicated to promoting sports, fitness, and well-being for people of all ages and abilities. Whether you're looking to compete, improve your skills, or simply stay active, we have something for everyone.
+Welcome to the Local sports club! We are a community-oriented club dedicated to promoting sports, fitness, and well-being for people of all ages and abilities. Whether you're looking to compete, improve your skills, or simply stay active, we have something for everyone.
 
 #
 ## 📚 Table of Contents :-
@@ -101,14 +101,14 @@ We regularly host various events and tournaments throughout the year. These incl
 - **Inter-club Tournaments**: Competitions against other local clubs.
 - **Holiday Leagues**: Seasonal leagues and fun tournaments for regestered members.
 
-Be sure to check our website [NST Sports Club]() for upcoming events and how to register!
+Be sure to check our website [Local Sports Club]() for upcoming events and how to register!
 
 #
 ## Contact Us:-
 
 For any questions, inquiries, or feedback, please reach out to us:
 
-- **Email**: [nstsportsclub@gmail.com]()
+- **Email**: [localsportsclub@gmail.com]()
 - **Phone**: 6396721301
 - **Address**: [ADYPU campus, Lohegaon, Pune, Maharashtra](https://maps.app.goo.gl/JJr8rh8N6BWLpsKN9)
 - **Business Hours**: Monday – Friday: 9:00 AM – 1:00 PM and 3:30 PM 5:50 PM | Saturday: 10:00 AM – 1:00 PM
