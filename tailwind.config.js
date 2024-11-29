@@ -4,9 +4,10 @@ module.exports = {
     "index.html",
     "about.html",
     "faq.html",
-    "gallary.html",
+    "gallery.html",
     "rule.html",
-    "sports.html"
+    "sports.html",
+    "calendar.html"
   ],
   theme: {
     extend: {},
