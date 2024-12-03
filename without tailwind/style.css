@@ -1,0 +1,21 @@
+body {
+    /*  */
+}
+
+nav {
+    background-color: bisque;
+    display: flex;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    line-height: 1.5rem;
+    padding: 1em;
+}
+
+.left {
+    justify-content: space-between;
+}
+
+.right {
+    margin-left: 28em;
+    justify-content: space-between;
+}
