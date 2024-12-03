@@ -1,21 +1,59 @@
 body {
-    /*  */
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-color: white;
 }
 
+/* This is for nav bar */
 nav {
     background-color: bisque;
     display: flex;
-    margin-left: 10rem;
-    margin-right: 10rem;
     height: 1.5rem;
     padding: 1em;
+    justify-content: space-between;
 }
 
+/* This is for nav-bar buttons only */
+.nav-btn {
+    text-decoration: none;
+    color: black;
+
+}
+
+/* This is for button order */
 .left {
-    justify-content: space-between;
+    margin-left: 10rem;
 }
 
 .right {
-    margin-left: 28em;
-    justify-content: space-between;
+    margin-left: 45em;
+    margin-right: 10rem;
+}
+
+
+/* This is for image just after nav-bar */
+.sec-img {
+    object-fit: fill;
+    height: 50rem;
+    width: 47.25rem;
+}
+
+
+
+#isec{
+    display: flex;
+    height: 50rem;
+    width: 47.25rem;
+}
+
+
+.sid-img {
+    width: auto;
+}
+
+
+
+.aside-img {
+    width: auto;
 }
