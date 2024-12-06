@@ -1,0 +1,63 @@
+/* body */
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-image:linear-gradient(to bottom, rgb(13, 64, 81), white);
+
+}
+
+/* This is for nav bar */
+nav {
+    background-color: white;
+    display: flex;
+    height: 2.5rem;
+    padding: 1em;
+    justify-content: space-between;
+    margin-top: 1.5em; 
+    padding: 1em;
+    align-items: center;
+    
+}
+
+/* This is for nav-bar buttons only */
+.nav-btn {
+    text-decoration: none;
+    color: black;
+    padding: 0.5em;
+    margin:1em;
+    color: rgb(72, 104, 104);
+    
+}
+
+/* This is for left side buttons */
+.left {
+    margin-left: 7rem;
+}
+.left a {
+    font-weight: bold;
+}
+.left a:hover{
+    border: 1px solid black;
+    border-radius: 1em;
+    background-color: rgb(13, 64, 81);
+    color: rgb(161, 233, 242);
+}
+
+/* This is for right side buttons */
+.right {
+    margin-left: 40em;
+    margin-right: 7rem;
+}
+.right a {
+    border: 1px solid black;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    background-color: rgb(13, 64, 81);
+    color: white;
+}
+.right a:hover{
+    background-color: rgb(161, 233, 242);
+    color: rgb(72, 104, 104);
+    font-weight: bold;
+}

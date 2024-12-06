@@ -1,0 +1,105 @@
+/* body */
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-image:linear-gradient(to bottom, rgb(13, 64, 81), white);
+
+}
+
+/* This is for nav bar */
+nav {
+    background-color: white;
+    display: flex;
+    height: 2.5rem;
+    padding: 1em;
+    justify-content: space-between;
+    margin-top: 1.5em;
+    padding: 1em;
+    align-items: center;
+    
+}
+
+/* This is for nav-bar buttons only */
+.nav-btn {
+    text-decoration: none;
+    color: black;
+    padding: 0.5em;
+    margin:1em;
+    color: rgb(72, 104, 104);
+    
+}
+
+/* This is for left side buttons */
+.left {
+    margin-left: 7rem;
+}
+.left a {
+    font-weight: bold;
+}
+.left a:hover{
+    border: 1px solid black;
+    border-radius: 1em;
+    background-color: rgb(13, 64, 81);
+    color: rgb(161, 233, 242);
+}
+
+/* This is for right side buttons */
+.right {
+    margin-left: 40em;
+    margin-right: 7rem;
+}
+.right a {
+    border: 1px solid black;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    background-color: rgb(13, 64, 81);
+    color: white;
+}
+.right a:hover{
+    background-color: rgb(161, 233, 242);
+    color: rgb(72, 104, 104);
+    font-weight: bold; 
+}
+/* for individual boxes */
+.box {
+    margin-left: 10em ;
+    background-image: linear-gradient(to bottom, rgb(167, 201, 201), rgb(72, 104, 104));
+    text-align: center;
+    width: 60em;
+    border-radius: 2em;
+    box-shadow: 10px 10px 5px lightblue;
+    
+}
+
+/* for all images */
+.img {
+    width: 25em;
+    height: 25em;
+    border-radius: 2em;
+}
+
+
+.container {
+    background-color:rgb(35, 137, 150);
+    padding: 3em;
+    margin:5em;
+    border-radius: 2em;
+    display: flex;
+    box-shadow: 15px 15px 5px rgb(161, 233, 242);
+   
+}
+
+/* for heading */
+h1 {
+    font-size: 2em;
+}
+
+/* for para */
+p {
+    font-size: 1.5em;
+    font-family: "Gill Sans", sans-serif;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 1em;
+}
