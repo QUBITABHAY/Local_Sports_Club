@@ -61,3 +61,35 @@ nav {
     color: rgb(72, 104, 104);
     font-weight: bold;
 }
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* This is for links */
+
+.astyle{
+    color: aliceblue;
+    text-decoration: none;
+    padding-top: 1.15em;
+}
+
+/* This is for icons */
+
+.fa-solid{
+    color: aliceblue;
+    padding-top: 1.15em;
+    padding-right: 0.5em
+}
+
+.fa-brands{
+    color: aliceblue;
+    padding-top: 1.15em;
+    padding-right: 0.5em;
+}
