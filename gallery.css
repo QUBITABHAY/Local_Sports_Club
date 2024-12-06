@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-image: linear-gradient(to bottom, black , white);
+
+}
+
+/* This is for nav bar */
+nav {
+    background-color: white;
+    display: flex;
+    height: 1.5rem;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+/* This is for nav-bar buttons only */
+.nav-btn {
+    text-decoration: none;
+    color: black;
+
+}
+
+/* This is for button order */
+.left {
+    margin-left: 10rem;
+}
+
+.right {
+    margin-left: 45em;
+    margin-right: 10rem;
+}
+
+.top-left {
+    display: flex;
+    padding: 3em;
+    flex-wrap: wrap;
+    
+
+}
+.img {
+    width: 30em;
+    height: 30em;
+    border-radius: 5px;
+    padding: 2em;
+}
