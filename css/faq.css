@@ -1,13 +1,5 @@
-body {
-    margin: 0;
-    padding: 0;
-    display: block;
-    background-color: white;
- }
- 
- 
- /* This is for nav bar */
- nav {
+/* This is for nav bar */
+nav {
     background-color: bisque;
     display: flex;
     height: 1.5rem;
@@ -21,8 +13,6 @@ body {
  .nav-btn {
     text-decoration: none;
     color: black;
- 
- 
  }
  
  
@@ -36,13 +26,26 @@ body {
     margin-left: 45em;
     margin-right: 10rem;
  }
+
  /* nav ends here */
- 
- /* Image Prop */
- 
- 
- img{
-    display: inline;
-    width: 100%;
- }
- 
+
+
+ /* main section */
+
+ #outer{
+    margin: 5em;
+    height: auto;
+    width: auto;
+    border-radius: 1em;
+    background-color: aliceblue;
+    padding: 2em;
+}
+
+.faq{
+    padding: 2em;
+    margin: 1em;
+    border-radius: 1em;
+    height: auto;
+    width: auto;
+    background-color: rgb(209, 219, 227);
+}
