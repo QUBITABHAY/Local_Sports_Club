@@ -37,8 +37,8 @@ nav {
     height: auto;
     width: auto;
     border-radius: 1em;
-    background-color: aliceblue;
-    padding: 2em;
+    background-color:rgb(35, 137, 150);
+    padding: 2em; 
 }
 
 .faq{
@@ -47,5 +47,8 @@ nav {
     border-radius: 1em;
     height: auto;
     width: auto;
-    background-color: rgb(209, 219, 227);
+    background-image: linear-gradient(to bottom, rgb(167, 201, 201), rgb(72, 104, 104));
+}
+body{
+   background-image:linear-gradient(to bottom, rgb(13, 64, 81), white);
 }
