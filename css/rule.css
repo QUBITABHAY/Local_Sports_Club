@@ -61,3 +61,52 @@ nav {
     color: rgb(72, 104, 104);
     font-weight: bold;
 }
+
+
+/* main content */
+
+.container {
+    background-color: rgb(35, 137, 150);
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 5%;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 3em;
+}
+.container1 {
+    background-color: rgb(35, 137, 150);
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 5%;
+    justify-content: center;
+    
+}
+
+.box {
+    background-image: linear-gradient(to bottom, rgb(167, 201, 201), rgb(72, 104, 104));
+    text-align: center;
+    width: 30%;
+    height: 40em;
+    margin: 1.5%;
+    border: 2px solid rgb(13, 64, 81);
+    border-radius: 2em;
+
+}
+h1 {
+    font-size: 4em;                       /* main heading */
+    text-decoration: underline;
+}
+h2 {
+    font-size: 2em;
+    
+}
+p {
+    font-size: 1.5em;
+    font-family: "Gill Sans", sans-serif;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+}
