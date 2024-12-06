@@ -3,38 +3,46 @@ body {
     padding: 0;
     display: block;
     background-color: white;
-}
-
-/* This is for nav bar */
-nav {
+ }
+ 
+ 
+ /* This is for nav bar */
+ nav {
     background-color: bisque;
     display: flex;
     height: 1.5rem;
     padding: 1em;
     justify-content: space-between;
     width: 100%;
-}
-
-/* This is for nav-bar buttons only */
-.nav-btn {
+ }
+ 
+ 
+ /* This is for nav-bar buttons only */
+ .nav-btn {
     text-decoration: none;
     color: black;
-
-}
-
-/* This is for button order */
-.left {
+ 
+ 
+ }
+ 
+ 
+ /* This is for button order */
+ .left {
     margin-left: 8rem;
-}
-
-.right {
+ }
+ 
+ 
+ .right {
     margin-left: 45em;
     margin-right: 10rem;
-}
-
-/* Image Prop */
-
-img{
+ }
+ 
+ 
+ /* Image Prop */
+ 
+ 
+ img{
     display: inline;
     width: 100%;
-}
+ }
+ 
