@@ -61,6 +61,35 @@ nav {
     color: rgb(72, 104, 104);
     font-weight: bold; 
 }
+
+/* for heading of the page */
+
+.heading {
+    text-align: center;
+    color:  rgb(161, 233, 242);
+    cursor: pointer;
+    
+}
+.upper {
+    text-shadow: 15px 15px 2px rgb(0, 43, 58);
+    font-size: 4em;
+}
+.lower {
+    text-shadow: 11px 11px 2px rgb(0, 42, 56);
+    font-size: 2.5em;
+}
+
+.upper:hover {
+    font-size: 4.05em;
+    text-shadow: 35px 25px 3px rgb(0, 43, 58);
+}
+.lower:hover {
+    font-size: 2.55em;
+    text-shadow: 21px 21px 3px rgb(0, 42, 56);
+}
+
+
+
 /* for individual boxes */
 .box {
     margin-left: 10em ;
@@ -69,6 +98,7 @@ nav {
     width: 60em;
     border-radius: 2em;
     box-shadow: 10px 10px 5px lightblue;
+    cursor: pointer;
     
 }
 
@@ -77,6 +107,7 @@ nav {
     width: 25em;
     height: 25em;
     border-radius: 2em;
+    cursor: pointer;
 }
 
 

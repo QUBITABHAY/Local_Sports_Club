@@ -63,6 +63,33 @@ nav {
 }
 
 
+/* heading style */
+
+.heading {
+  text-align: center;
+  color: rgb(161, 233, 242);
+}
+.upper {
+  font-size: 4em;
+  text-shadow:15px 15px 2px rgb(0, 43, 58);
+}
+.lower {
+  font-size: 2.5em;
+  text-shadow: 11px 11px 2px  rgb(5, 53, 69);
+}
+.upper:hover {
+  font-size: 4.05em;
+  text-shadow: 35px 25px 3px rgb(0, 43, 58);
+}
+.lower:hover {
+  font-size: 2.55em;
+  text-shadow: 21px 21px 3px rgb(0, 42, 56);
+}
+
+
+
+
+
 /* images properties  */
 
 
@@ -162,6 +189,10 @@ nav {
     text-align: center;
     font-weight: bold;
   }
+
+  /* div properties */
+
+
   .main1 {
     display: inline-block;
   

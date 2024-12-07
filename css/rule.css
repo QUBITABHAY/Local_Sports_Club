@@ -97,7 +97,13 @@ nav {
 }
 h1 {
     font-size: 4em;                       /* main heading */
-    text-decoration: underline;
+    text-decoration:none;
+    text-shadow: 5px 5px 2px rgb(110, 173, 195);
+}
+h1:hover {
+    font-size: 4.05em;
+    text-shadow: 10px 10px 2px rgb(110, 173, 195);
+    text-decoration: none;
 }
 h2 {
     font-size: 2em;
