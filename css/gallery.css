@@ -61,3 +61,172 @@ nav {
     color: rgb(72, 104, 104);
     font-weight: bold;
 }
+
+
+/* images properties  */
+
+
+.img {
+    width: 30em;
+    height: 30em;
+   display:inline-block;
+    padding: 2em;
+    margin:1.5em;
+    cursor: pointer;
+    border-radius: 10em;
+
+}
+.img1 {
+    width: 30em;
+    height: 30em;
+    display: inline-block;
+    padding: 2em;
+    margin:1.5em;
+    cursor: pointer;
+    border-top-left-radius: 10em;
+    border-bottom-right-radius: 10em;
+
+}
+
+/* for hovering effects */
+
+
+.container {
+    position: relative;
+    width: 10%;
+  }
+  
+
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 26.5em;
+    width: 26.5em;
+    opacity: 0;
+    transition: 0.3s ease;
+    background-color: white;
+    display: inline-block;
+    padding: 2em;
+    margin-top:3.2em;
+    margin-left: 3.2em;
+    cursor:all-scroll;
+    border-top-left-radius: 9em;
+    border-bottom-right-radius: 8.5em;
+  }
+  
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 27em;
+    width: 27em;
+    opacity: 0;
+    transition: 0.3s ease;
+    background-color: white;
+    display: inline-block;
+    padding: 2em;
+    margin-top:3em;
+    margin-left: 3em;
+    cursor:all-scroll;
+    border-radius: 9.7em;
+   
+  }
+
+  .container:hover .overlay {
+    opacity: 0.7;
+  }
+  
+  .container:hover .overlay1 {
+    opacity: 0.7;
+  }
+
+
+  /* text properties */
+
+
+  .text {
+    color: black;
+    font-size: 2.2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: bold;
+  }
+  .main1 {
+    display: inline-block;
+  
+  }
+  .main2 {
+    display: inline-block;
+    
+  }
+  .main3 {
+    display: inline-block;
+
+  }
+  .main4 {
+    display: inline-block;
+
+  }
+  .main5 {
+    display: inline-block;
+
+  }
+  .main6 {
+    display: inline-block;
+
+  }
+  
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+
+
+
+  /* footer section */
+
+
+ footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* This is for links */
+
+.astyle{
+  color: aliceblue;
+  text-decoration: none;
+  padding-top: 1.15em;
+}
+
+/* This is for icons */
+
+.fa-solid{
+  color: aliceblue;
+  padding-top: 1.15em;
+  padding-right: 0.5em
+}
+
+.fa-brands{
+  color: aliceblue;
+  padding-top: 1.15em;
+  padding-right: 0.5em;
+}
+
