@@ -93,3 +93,89 @@ footer {
     padding-top: 1.15em;
     padding-right: 0.5em;
 }
+
+
+/* This is for coaches */
+
+.container {
+    background-color:rgb(35, 137, 150);
+    padding: 3em;
+    margin:5em;
+    border-radius: 2em;
+    display: flex;
+    box-shadow: 15px 15px 5px rgb(161, 233, 242);
+    width: 60em;
+}
+
+/* for all images */
+.img {
+    width: 20em;
+    height: 20em;
+    border-radius: 2em;
+}
+
+/* for individual boxes of left side */
+.boxl {
+    margin-left: 10em ;
+    background-image: linear-gradient(to bottom, rgb(167, 201, 201), rgb(72, 104, 104));
+    text-align: center;
+    width: 40em;
+    border-radius: 2em;
+    box-shadow: 10px 10px 5px lightblue;
+    
+}
+
+/* for individual boxes of right side */
+
+.boxr {
+    margin-right: 10em ;
+    background-image: linear-gradient(to bottom, rgb(167, 201, 201), rgb(72, 104, 104));
+    text-align: center;
+    width: 40em;
+    border-radius: 2em;
+    box-shadow: 10px 10px 5px lightblue;
+    
+}
+
+.coach{
+    margin: 8em;
+}
+
+.coachhesding{
+    font-size: 2em;
+}
+
+.bold{
+    font-weight: 1000;
+}
+
+/* achievement */
+
+.achievement{
+    padding: 3em;
+    margin:5em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imga{
+    width: 20em;
+    height: 20em;
+    border-radius: 2em;
+    padding: 2em;
+}
+
+.achiv-text{
+    padding-top: 2em;
+}
+
+.achievements{
+    padding: 0em;
+    margin-left: 0em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex{
+    display: flex;
+}
