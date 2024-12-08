@@ -9,56 +9,71 @@ body {
 
 /* This is for nav bar */
 nav {
-    background-color: white;
-    display: flex;
-    height: 2.5rem;
-    padding: 1em;
-    justify-content: space-between;
-    margin-top: 1.5em; 
-    padding: 1em;
-    align-items: center;
-    
+  background-color: white;
+  display: flex;
+  height: 2.5rem;
+  padding: 1em;
+  justify-content: space-between;
+  margin-top: 1.5em;
+  padding: 1em;
+  align-items: center;
+  
 }
 
 /* This is for nav-bar buttons only */
 .nav-btn {
-    text-decoration: none;
-    color: black;
-    padding: 0.5em;
-    margin:1em;
-    color: rgb(72, 104, 104);
+  text-decoration: none;
+  color: black;
+  padding: 0.5em;
+  margin:0.5em;
+  color: rgb(72, 104, 104);
+  
 }
 
+
+/* Navbar Logo */
+
+#vip {
+  width: 3em;
+  height: 3em;
+  margin-left: 3.5em;
+}
+
+
 /* This is for left side buttons */
+
 .left {
-    margin-left: 7rem;
+  margin-left: -10em;
+
 }
 .left a {
-    font-weight: bold;
+  font-weight: bold;
+  padding-right:1.3em ;
+  padding-left: 1.3em;
 }
 .left a:hover{
-    border: 1px solid black;
-    border-radius: 1em;
-    background-color: rgb(13, 64, 81);
-    color: rgb(161, 233, 242);
+  border: 1px solid black;
+  border-radius: 1em;
+  background-color: rgb(13, 64, 81);
+  color: rgb(161, 233, 242);
 }
 
 /* This is for right side buttons */
 .right {
-    margin-left: 40em;
-    margin-right: 7rem;
+  margin-left: 40em;
+  margin-right: 7rem;
 }
 .right a {
-    border: 1px solid black;
-    border-top-right-radius: 1em;
-    border-bottom-left-radius: 1em;
-    background-color: rgb(13, 64, 81);
-    color: white;
+  border: 1px solid black;
+  border-top-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+  background-color: rgb(13, 64, 81);
+  color: white;
 }
 .right a:hover{
-    background-color: rgb(161, 233, 242);
-    color: rgb(72, 104, 104);
-    font-weight: bold;
+  background-color: rgb(161, 233, 242);
+  color: rgb(72, 104, 104);
+  font-weight: bold;
 }
 
 
