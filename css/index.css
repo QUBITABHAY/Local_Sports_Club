@@ -65,14 +65,112 @@ nav {
 
 /* video prop */
 
+/* video prop */
+
 #isec {
    position: relative;
    height: 90.8vh;
    width: 100%;
    overflow: hidden;
+   z-index: -1;
+   color: transparent;
+   opacity: 0.4;
+}
+
+/* text over video */
+
+.main {
+   color: rgb(0, 0, 0);
+}
+.overlay h1{
+   font-weight:bolder;
+   font-size: 5em;
+   text-align: center;
+   left: 6em;
+   mix-blend-mode: overlay;
+   position:absolute;
+   top: 1.5em;
+   text-shadow: 4px 4px 4px black;
+}
+
+.overlay h2{
+   font-weight: bold;
+   font-size: 2.7em;
+   mix-blend-mode: overlay;
+   left: 13em;
+   text-align: center;
+   position:absolute;
+   top: 6.5em;
+}
+
+.overlay p{
+   font-weight: bold;
+   font-size: 1.5em;
+   mix-blend-mode: overlay;
+   left: 6em;
+   right: 6em;
+   text-align: center;
+   position:absolute;
+   top: 16em;
+}
+
+.overlay h3{
+   font-weight: bold;
+   font-size: 2.7em;
+   mix-blend-mode: overlay;
+   left: 13em;
+   text-align: center;
+   position:absolute;
+   top: 12em;
+}
+
+.overlay p1{
+   font-weight: bold;
+   font-size: 1.5em;
+   mix-blend-mode: overlay;
+   left: 6em;
+   right: 6em;
+   text-align: center;
+   position:absolute;
+   top: 28em;
+}
+.overlay h4{
+   font-weight: bold;
+   font-size: 2.7em;
+   mix-blend-mode: overlay;
+   left: 10em;
+   text-align: center;
+   position:absolute;
+   top: 18em;
+}
+.overlay button{
+   font-weight: bold;
+   font-size: 1.7em;
+   mix-blend-mode: overlay;
+   left: 20em;
+   text-align: center;
+   position:absolute;
+   top: 33em;
+}
+
+.overlay button:hover{
+   color: white;
+   background-color: rgb(13, 64, 81);
+
 }
 
 
+video{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100;
+   height: 100;
+   -o-object-fit: cover;
+   object-fit: cover;
+   -o-object-position: center;
+   object-position: center;
+}
  /* Image Prop */
  
  
@@ -153,14 +251,14 @@ button{
 }
 
 
-/* for our sponsers */
+/* for our sponsors */
 
-.sponser {
+.sponsor {
    
    height: 27em;
 }
 
-.sponser h1 {
+.sponsor h1 {
    font-size: 3em;
    text-align: center;
    text-shadow: 4px 5px 4px grey;
