@@ -29,8 +29,21 @@ nav {
     color: rgb(72, 104, 104);
     
 }
+.left .nav-btn{
+    margin-top: -20px;
+}
+
+/* Navbar Logo */
+
+#vip {
+    width: 3em;
+    height: 3em;
+    margin-left: 3.5em;
+}
+
 
 /* This is for left side buttons */
+
 .left {
     margin-left: 7rem;
 }
