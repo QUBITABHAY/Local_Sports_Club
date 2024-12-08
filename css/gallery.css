@@ -302,3 +302,7 @@ h2{
 .column1{
   margin-top: 2em;
 }
+.fot-btn:hover{
+  text-decoration: underline;
+  color: lightblue;
+}
