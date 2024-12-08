@@ -1,0 +1,363 @@
+/* body */
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* login */
+#login{
+    padding: 2em 2.5em;
+    background-color: white;
+    margin: auto;
+    border-radius: 0.8em;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    min-width: 400px;
+    width: 100%;
+    border: 1px solid #e1e1e1;
+}
+
+/* Make it responsive for mobile devices */
+@media screen and (max-width: 480px) {
+    #login {
+        min-width: 300px;
+        max-width: 100%;
+        padding: 1.5em;
+        margin: 10px;
+    }
+    
+    .registration-title {
+        font-size: 1.5em;
+        margin-bottom: 1em;
+    }
+}
+
+label {
+    color: #333;
+    font-size: 0.9em;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+    text-align: left;
+    display: block;
+}
+
+input{
+    width: 100%;
+    padding: 0.8em;
+    border-radius: 0.4em;
+    border: 1px solid #e1e1e1;
+    margin-top: 0.3em;
+    box-sizing: border-box;
+    font-size: 0.9em;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4A90E2;
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+input[type="button"] {
+    background-color: #4A90E2;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1.5em;
+}
+
+input[type="button"]:hover {
+    background-color: #357ABD;
+}
+
+.radio-container{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.radio-container input[type="radio"] {
+    width: auto;
+    margin: 0;
+}
+
+.radio-container label {
+    margin: 0;
+    display: inline;
+}
+
+/* Fix for number input spinner */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.registration-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5em;
+    font-size: 1.8em;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid #4A90E2;
+}
+
+select {
+    width: 100%;
+    padding: 0.8em;
+    border-radius: 0.4em;
+    border: 1px solid #e1e1e1;
+    margin-top: 0.3em;
+    box-sizing: border-box;
+    font-size: 0.9em;
+    background-color: white;
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 1em center;
+    background-size: 1em;
+}
+
+select:focus {
+    outline: none;
+    border-color: #4A90E2;
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+select option {
+    padding: 0.8em;
+}
+
+select option:first-child {
+    color: #666;
+}
+
+/* Hover effect for options */
+select option:hover,
+select option:focus {
+    background-color: #4A90E2;
+    color: white;
+}
+
+.success-message {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.success-content {
+    background-color: white;
+    padding: 2em;
+    border-radius: 0.8em;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    width: 350px;
+    animation: slideIn 0.5s ease-out;
+}
+
+.success-content h2 {
+    color: #4CAF50;
+    margin-bottom: 0.5em;
+    font-size: 1.4em;
+}
+
+.success-content p {
+    color: #666;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Add responsive styling for success message */
+@media screen and (max-width: 480px) {
+    .success-content {
+        width: 300px;
+        padding: 1.5em;
+    }
+    
+    .success-content h2 {
+        font-size: 1.2em;
+    }
+}
+
+/* Greeting section */
+.greet {
+    text-align: center;
+    margin: 2em 0;
+    padding: 2em;
+}
+
+.greet h1 {
+    font-size: 3em;
+    color: rgb(161, 233, 242);
+    text-shadow: 15px 15px 4px rgb(10, 41, 45);
+    transition: all 0.3s ease;
+}
+
+.greet h1:hover {
+    font-size: 3.05em;
+    text-shadow: 21px 21px 4px rgb(9, 43, 47);
+}
+
+/* Introduction section */
+.intro {
+    background-color: rgb(35, 137, 150);
+    padding: 3em;
+    margin: 2em 5em;
+    border-radius: 2em;
+    box-shadow: 15px 15px 5px rgb(161, 233, 242);
+}
+
+.intro p {
+    color: white;
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Overview section */
+.overview {
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 5em;
+    gap: 2em;
+}
+
+/* Facility section */
+.facility {
+    background-color: rgb(35, 137, 150);
+    padding: 3em;
+    margin: 2em 5em;
+    border-radius: 2em;
+    box-shadow: 15px 15px 5px rgb(161, 233, 242);
+    color: white;
+}
+
+.facility h2 {
+    color: rgb(161, 233, 242);
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+    text-shadow: 4px 4px 2px rgb(10, 41, 45);
+}
+
+.facility p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 1.5em;
+}
+
+.facility ul {
+    margin-left: 2em;
+    margin-bottom: 1.5em;
+}
+
+.facility li {
+    margin-bottom: 1em;
+    line-height: 1.6;
+}
+
+.facility .outerul {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    list-style: none;
+    margin-left: 0;
+}
+
+/* Member section */
+.member {
+    background-color: rgb(35, 137, 150);
+    padding: 3em;
+    margin: 2em 5em;
+    border-radius: 2em;
+    box-shadow: 15px 15px 5px rgb(161, 233, 242);
+    color: white;
+}
+
+.member h2 {
+    color: rgb(161, 233, 242);
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+    text-shadow: 4px 4px 2px rgb(10, 41, 45);
+}
+
+.member h3 {
+    color: rgb(161, 233, 242);
+    font-size: 1.5em;
+    margin: 1em 0;
+    text-shadow: 2px 2px 1px rgb(10, 41, 45);
+}
+
+.member p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 1.5em;
+}
+
+.member ul {
+    margin-left: 2em;
+    margin-bottom: 1.5em;
+}
+
+.member li {
+    margin-bottom: 0.8em;
+    line-height: 1.6;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .greet h1 {
+        font-size: 2em;
+    }
+    
+    .intro, .facility, .member {
+        margin: 2em;
+        padding: 2em;
+    }
+    
+    .overview {
+        flex-direction: column;
+        margin: 2em;
+    }
+    
+    .facility h2, .member h2 {
+        font-size: 1.8em;
+    }
+    
+    .member h3 {
+        font-size: 1.3em;
+    }
+}

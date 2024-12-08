@@ -75,19 +75,6 @@ nav {
     color: rgb(72, 104, 104);
     font-weight: bold;
 }
-/* body section  */
-
-
-
-
-
-
-
-
-
-
-
-/* This is for coaches */
 
 .container {
     background-color:rgb(35, 137, 150);
@@ -219,8 +206,6 @@ nav {
 }
 
 
-
-
 /* Footer */
 
 footer {
@@ -287,3 +272,371 @@ footer {
  
  
  /* footer ends here */
+
+ /* Greeting section */
+.greet {
+    text-align: center;
+    margin: 2em 0;
+    padding: 2em;
+}
+
+.greet h1 {
+    font-size: 3em;
+    color: rgb(161, 233, 242);
+    text-shadow: 15px 15px 4px rgb(10, 41, 45);
+    transition: all 0.3s ease;
+}
+
+.greet h1:hover {
+    font-size: 3.05em;
+    text-shadow: 21px 21px 4px rgb(9, 43, 47);
+}
+
+/* Introduction section */
+.intro {
+    background-color: rgb(35, 137, 150);
+    padding: 3em;
+    margin: 2em 5em;
+    border-radius: 2em;
+    box-shadow: 15px 15px 5px rgb(161, 233, 242);
+    transition: all 0.3s ease;
+}
+
+.intro:hover {
+    transform: translateY(-5px);
+    box-shadow: 20px 20px 10px rgb(161, 233, 242);
+}
+
+.intro p {
+    color: white;
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Overview section */
+.overview {
+    display: flex;
+    justify-content: center;
+    margin: 3em 5em;
+}
+
+.mission {
+    background-color: rgb(35, 137, 150);
+    padding: 3em;
+    border-radius: 2em;
+    box-shadow: 15px 15px 5px rgb(161, 233, 242);
+    width: 100%;
+}
+
+.mission p {
+    color: white;
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: justify;
+    margin: 0;
+    padding: 1em;
+}
+
+/* Add hover effect */
+.mission:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+    box-shadow: 20px 20px 10px rgb(161, 233, 242);
+}
+
+/* Update responsive design for overview section */
+@media screen and (max-width: 768px) {
+    .overview {
+        margin: 2em;
+    }
+    
+    .mission {
+        padding: 2em;
+    }
+    
+    .mission p {
+        font-size: 1em;
+        line-height: 1.6;
+        padding: 0.5em;
+    }
+}
+
+/* Facility section */
+.facility {
+    background-color: rgb(35, 137, 150);
+    padding: 3em;
+    margin: 2em 5em;
+    border-radius: 2em;
+    box-shadow: 15px 15px 5px rgb(161, 233, 242);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.facility:hover {
+    transform: translateY(-5px);
+    box-shadow: 20px 20px 10px rgb(161, 233, 242);
+}
+
+.facility h2 {
+    color: rgb(161, 233, 242);
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+    text-shadow: 4px 4px 2px rgb(10, 41, 45);
+}
+
+.facility:hover h2 {
+    transform: scale(1.02);
+    text-shadow: 6px 6px 3px rgb(10, 41, 45);
+}
+
+.facility p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 1.5em;
+}
+
+.facility ul {
+    margin-left: 2em;
+    margin-bottom: 1.5em;
+}
+
+.facility li {
+    margin-bottom: 1em;
+    line-height: 1.6;
+}
+
+.facility .outerul {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    list-style: none;
+    margin-left: 0;
+}
+
+/* Member section */
+.member {
+    background-color: rgb(35, 137, 150);
+    padding: 3em;
+    margin: 2em 5em;
+    border-radius: 2em;
+    box-shadow: 15px 15px 5px rgb(161, 233, 242);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.member:hover {
+    transform: translateY(-5px);
+    box-shadow: 20px 20px 10px rgb(161, 233, 242);
+}
+
+.member h2 {
+    color: rgb(161, 233, 242);
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+    text-shadow: 4px 4px 2px rgb(10, 41, 45);
+}
+
+.member:hover h2 {
+    transform: scale(1.02);
+    text-shadow: 6px 6px 3px rgb(10, 41, 45);
+}
+
+.member h3 {
+    color: rgb(161, 233, 242);
+    font-size: 1.5em;
+    margin: 1em 0;
+    text-shadow: 2px 2px 1px rgb(10, 41, 45);
+}
+
+.member:hover h3 {
+    transform: scale(1.02);
+    text-shadow: 6px 6px 3px rgb(10, 41, 45);
+}
+
+.member p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 1.5em;
+}
+
+.member ul {
+    margin-left: 2em;
+    margin-bottom: 1.5em;
+}
+
+.member li {
+    margin-bottom: 0.8em;
+    line-height: 1.6;
+}
+
+.member:hover li {
+    transform: translateX(10px);
+    transition: transform 0.3s ease;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .greet h1 {
+        font-size: 2em;
+    }
+    
+    .intro, .facility, .member {
+        margin: 2em;
+        padding: 2em;
+    }
+    
+    .overview {
+        flex-direction: column;
+        margin: 2em;
+    }
+    
+    .facility h2, .member h2 {
+        font-size: 1.8em;
+    }
+    
+    .member h3 {
+        font-size: 1.3em;
+    }
+}
+
+.mission h2 {
+    color: rgb(161, 233, 242);
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 0.5em;
+    text-shadow: 4px 4px 2px rgb(10, 41, 45);
+    transition: all 0.3s ease;
+}
+
+.mission:hover h2 {
+    transform: scale(1.02);
+    text-shadow: 6px 6px 3px rgb(10, 41, 45);
+}
+
+/* Add h4 styles to intro */
+.intro h4 {
+    color: rgb(161, 233, 242);
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 1.5em;
+    font-style: italic;
+    text-shadow: 2px 2px 1px rgb(10, 41, 45);
+    transition: all 0.3s ease;
+}
+
+.intro:hover h4 {
+    transform: scale(1.02);
+    text-shadow: 3px 3px 2px rgb(10, 41, 45);
+}
+
+/* Update responsive styles */
+@media screen and (max-width: 768px) {
+    .intro h4 {
+        font-size: 1.1em;
+    }
+    
+}
+
+/* Coach section */
+.coach {
+    margin: 8em 5em;
+    padding: 2em;
+}
+
+.coach > h1 {
+    font-size: 3em;
+    text-align: center;
+    color: rgb(161, 233, 242);
+    text-shadow: 15px 15px 4px rgb(10, 41, 45);
+    transition: all 0.3s ease;
+    margin-bottom: 1.5em;
+}
+
+.coach > h1:hover {
+    transform: scale(1.02);
+    text-shadow: 21px 21px 4px rgb(9, 43, 47);
+}
+
+/* Coach containers */
+.container, .container1 {
+    background-color: rgb(35, 137, 150);
+    padding: 3em;
+    margin: 5em auto;
+    border-radius: 2em;
+    display: flex;
+    align-items: center;
+    box-shadow: 15px 15px 5px rgb(161, 233, 242);
+    max-width: 1000px;
+    transition: all 0.3s ease;
+}
+
+.container:hover, .container1:hover {
+    transform: translateY(-5px);
+    box-shadow: 20px 20px 10px rgb(161, 233, 242);
+}
+
+.container {
+    margin-right: 15em;
+}
+
+.container1 {
+    margin-left: 15em;
+}
+
+/* Coach images */
+.img {
+    width: 20em;
+    height: 20em;
+    border-radius: 2em;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.container:hover .img, .container1:hover .img {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Coach info boxes */
+.boxl, .boxr {
+    background-image: linear-gradient(to bottom, rgb(167, 201, 201), rgb(72, 104, 104));
+    text-align: center;
+    width: 40em;
+    border-radius: 2em;
+    padding: 2em;
+    box-shadow: 10px 10px 5px lightblue;
+    transition: all 0.3s ease;
+}
+
+.boxl {
+    margin-left: 5em;
+}
+
+.boxr {
+    margin-right: 5em;
+}
+
+.container:hover .boxl, .container1:hover .boxr {
+    transform: translateX(10px);
+    box-shadow: 15px 15px 10px lightblue;
+}
+
+/* Add responsive styles */
+@media screen and (max-width: 1200px) {
+    .achievements {
+        flex-wrap: wrap;
+    }
+    
+    .achievement {
+        flex: 0 0 calc(50% - 3em); /* 2 per row on medium screens */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .achievement {
+        flex: 0 0 100%; /* 1 per row on small screens */
+    }
+}
