@@ -62,6 +62,152 @@ nav {
     font-weight: bold;
 }
 
+/* body section  */
+
+
+
+
+
+
+
+
+
+
+
+/* This is for coaches */
+
+.container {
+    background-color:rgb(35, 137, 150);
+    padding: 3em;
+    margin:5em;
+    border-radius: 2em;
+    display: flex;
+    box-shadow: 15px 15px 5px rgb(161, 233, 242);
+    width: 60em;
+}
+.container1 {
+    background-color:rgb(35, 137, 150);
+    padding: 3em;
+    margin:5em;
+    margin-left: 25em;
+    border-radius: 2em;
+    display: flex;
+    box-shadow: 15px 15px 5px rgb(161, 233, 242);
+    width: 60em;
+}
+
+/* for all images */
+
+.img {
+    width: 20em;
+    height: 20em;
+    border-radius: 2em;
+}
+
+/* for individual boxes of left side */
+
+.boxl {
+    margin-left: 10em ;
+    background-image: linear-gradient(to bottom, rgb(167, 201, 201), rgb(72, 104, 104));
+    text-align: center;
+    width: 40em;
+    border-radius: 2em;
+    box-shadow: 10px 10px 5px lightblue;
+    
+}
+
+/* for individual boxes of right side */
+
+.boxr {
+    margin-right: 10em ;
+    background-image: linear-gradient(to bottom, rgb(167, 201, 201), rgb(72, 104, 104));
+    text-align: center;
+    width: 40em;
+    border-radius: 2em;
+    box-shadow: 10px 10px 5px lightblue;
+    
+}
+
+.coach{
+    margin: 8em;
+}
+
+.coach > h1 {
+    font-size: 3em;
+    text-shadow: 15px 15px 4px rgb(10, 41, 45);
+    color: rgb(161, 233, 242);
+}
+
+.coach > h1:hover {
+    font-size: 3.05em;
+    text-shadow: 21px 21px 4px rgb(9, 43, 47);
+}
+
+.coachheading{
+    font-size: 2em;
+}
+
+.bold{
+    font-weight: 1000;
+}
+
+/* achievement */
+
+.achievement{
+    padding: 3em;
+    margin:1em;
+    width: 24em;
+    height: 40em;
+    background-color:rgb(35, 137, 150);
+    border-radius: 2em;
+    box-shadow: 15px 15px 5px rgb(161, 233, 242);
+    margin-bottom: 5em;
+    margin-left: 5em;
+}
+
+.imga{
+    width: 20em;
+    height: 20em;
+    border-radius: 5em;
+    padding: 2em;
+}
+
+.achiv-text{
+    padding-top: 2em;
+    width: 20em;
+    height: 5em;
+    background-image: linear-gradient(to bottom, rgb(167, 201, 201), rgb(72, 104, 104));
+    text-align: center;
+    border-radius: 2em;
+    box-shadow: 10px 10px 5px lightblue;
+    margin-left: 2em;
+    margin-top: 4em;
+}
+
+.achievements{
+    padding: 0em;
+    margin-left: 0em;
+    display: flex;
+}
+
+.achiv-heading {
+    font-size: 5em;
+    margin-top: 3em;
+    margin-bottom: 2.5em;
+    color: rgb(4, 99, 109);
+    margin-left: 2em;
+    text-shadow: 6px 6px 4px aqua;
+}
+
+.achiv-heading:hover {
+    font-size: 5.05em;
+    text-shadow:  16px 16px 14px aqua;
+    color: rgb(4, 99, 109);
+}
+
+
+
+
 /* Footer */
 
 footer {
@@ -94,88 +240,3 @@ footer {
     padding-right: 0.5em;
 }
 
-
-/* This is for coaches */
-
-.container {
-    background-color:rgb(35, 137, 150);
-    padding: 3em;
-    margin:5em;
-    border-radius: 2em;
-    display: flex;
-    box-shadow: 15px 15px 5px rgb(161, 233, 242);
-    width: 60em;
-}
-
-/* for all images */
-.img {
-    width: 20em;
-    height: 20em;
-    border-radius: 2em;
-}
-
-/* for individual boxes of left side */
-.boxl {
-    margin-left: 10em ;
-    background-image: linear-gradient(to bottom, rgb(167, 201, 201), rgb(72, 104, 104));
-    text-align: center;
-    width: 40em;
-    border-radius: 2em;
-    box-shadow: 10px 10px 5px lightblue;
-    
-}
-
-/* for individual boxes of right side */
-
-.boxr {
-    margin-right: 10em ;
-    background-image: linear-gradient(to bottom, rgb(167, 201, 201), rgb(72, 104, 104));
-    text-align: center;
-    width: 40em;
-    border-radius: 2em;
-    box-shadow: 10px 10px 5px lightblue;
-    
-}
-
-.coach{
-    margin: 8em;
-}
-
-.coachhesding{
-    font-size: 2em;
-}
-
-.bold{
-    font-weight: 1000;
-}
-
-/* achievement */
-
-.achievement{
-    padding: 3em;
-    margin:5em;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.imga{
-    width: 20em;
-    height: 20em;
-    border-radius: 2em;
-    padding: 2em;
-}
-
-.achiv-text{
-    padding-top: 2em;
-}
-
-.achievements{
-    padding: 0em;
-    margin-left: 0em;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.flex{
-    display: flex;
-}

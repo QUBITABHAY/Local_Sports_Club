@@ -73,6 +73,21 @@ nav {
 }
 
 
+/* main heading  */
+
+.heading {
+    text-align: center;
+    text-shadow: 10px 10px 4px rgb(10, 41, 45);
+    color:rgb(161, 233, 242);
+    font-size: 4em;
+}
+.heading:hover{
+    text-shadow: 16px 16px 9px rgb(10, 41, 45);
+    color:rgb(161, 233, 242);
+    font-size: 4.05em;
+}
+
+
 /* for upcoming and past events */
 
 
