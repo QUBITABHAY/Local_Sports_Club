@@ -362,6 +362,8 @@ button{
 .news img{
    height: 20em;
    width: 25em;
+   border-top-left-radius: 1em;
+   border-top-right-radius: 1em;
    
 }
 .news-box {
@@ -369,6 +371,7 @@ button{
    border: 3px solid black;
    margin-left: 2.5em;
    width: 25em;
+   border-radius: 1em;
 }
 .news-box h2{
    text-align: center;
@@ -385,7 +388,7 @@ button{
 
  /* Footer */
 
- footer {
+ .footer {
    background-color: #333;
    color: #fff;
    padding: 20px;
@@ -446,7 +449,13 @@ button{
  .column1{
    margin-top: 2em;
  }
-
+ .copyright {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+   margin-top: -7em;
+ }
 
 
 /* footer ends here */
