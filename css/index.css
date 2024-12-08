@@ -19,23 +19,37 @@ nav {
    align-items: center;
    
 }
- 
+
 /* This is for nav-bar buttons only */
 .nav-btn {
    text-decoration: none;
    color: black;
    padding: 0.5em;
-   margin:1em;
+   margin:0.5em;
    color: rgb(72, 104, 104);
    
 }
 
+
+/* Navbar Logo */
+
+#vip {
+   width: 3em;
+   height: 3em;
+   margin-left: 3.5em;
+}
+
+
 /* This is for left side buttons */
+
 .left {
-   margin-left: 7rem;
+   margin-left: -10em;
+
 }
 .left a {
    font-weight: bold;
+   padding-right:1.3em ;
+   padding-left: 1.3em;
 }
 .left a:hover{
    border: 1px solid black;
@@ -61,7 +75,6 @@ nav {
    color: rgb(72, 104, 104);
    font-weight: bold;
 }
-
 
 /* video prop */
 
