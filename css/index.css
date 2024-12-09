@@ -1,80 +1,94 @@
 /* body */
 body {
-   margin: 0;
-   padding: 0;
-   display: block;
-   background-image:linear-gradient(to bottom, rgb(13, 64, 81), white);
+    margin: 0;
+    padding: 0;
+    display: block;
+    background-image:linear-gradient(to bottom, #c5d2df, white);
 
 }
 
 /* This is for nav bar */
 nav {
-   background-color: white;
-   display: flex;
-   height: 2.5rem;
-   padding: 1em;
-   justify-content: space-between;
-   margin-top: 1.5em;
-   padding: 1em;
-   align-items: center;
-   
+    background-color: white;
+    display: flex;
+    height: 2.5rem;
+    padding: 1em;
+    justify-content: space-between;
+    margin-top: 1.5em;
+    padding: 1em;
+    align-items: center;
+    
 }
 
 /* This is for nav-bar buttons only */
-.nav-btn {
-   text-decoration: none;
-   color: black;
-   padding: 0.5em;
-   margin:0.5em;
-   color: rgb(72, 104, 104);
-   
-}
-
-
-/* Navbar Logo */
-
-#vip {
-   width: 3em;
-   height: 3em;
-   margin-left: 3.5em;
-}
-
-
-/* This is for left side buttons */
-
-.left {
-   margin-left: -10em;
-
-}
-.left a {
-   font-weight: bold;
-   padding-right:1.3em ;
-   padding-left: 1.3em;
-}
-.left a:hover{
-   border: 1px solid black;
-   border-radius: 1em;
-   background-color: rgb(13, 64, 81);
-   color: rgb(161, 233, 242);
-}
-
-/* This is for right side buttons */
-.right {
-   margin-left: 40em;
-   margin-right: 7rem;
-}
-.right a {
-   border: 1px solid black;
-   border-top-right-radius: 1em;
-   border-bottom-left-radius: 1em;
-   background-color: rgb(13, 64, 81);
-   color: white;
-}
-.right a:hover{
-   background-color: rgb(161, 233, 242);
-   color: rgb(72, 104, 104);
-   font-weight: bold;
-}
+nav {
+    background-color: #ffffff;
+    display: flex;
+    height: 2.5rem;
+    padding: 1em;
+    justify-content: space-between;
+    margin-top: 1.5em;
+    padding: 1em;
+    align-items: center;
+    
+  }
+  
+  /* This is for nav-bar buttons only */
+  .nav-btn {
+    text-decoration: none;
+    color: black;
+    padding: 0.5em;
+    margin:0.5em;
+  
+    
+  }
+  
+  
+  /* Navbar Logo */
+  
+  #vip {
+    width: 3em;
+    height: 3em;
+    margin-left: 3.5em;
+  }
+  
+  
+  /* This is for left side buttons */
+  
+  .left {
+    margin-left: -10em;
+  
+  }
+  .left a {
+    font-weight: bold;
+    padding-right:1.3em ;
+    padding-left: 1.3em;
+  }
+  .left a:hover{
+    border: 1px solid black;
+    border-radius: 1em;
+    background-color: #333;
+    color: white;
+  }
+  
+  /* This is for right side buttons */
+  .right {
+    margin-left: 40em;
+    margin-right: 7rem;
+  }
+  .right a {
+    border: 1px solid black;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    background-color: #333;
+    color: white;
+  }
+  .right a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  
 
 /* video prop */
 
@@ -86,16 +100,16 @@ nav {
    overflow: hidden;
    z-index: -1;
    color: transparent;
-   opacity: 0.4;
+   opacity: 0.9;
 }
 
 /* text over video */
 
 .main {
-   color: rgb(0, 0, 0);
+   color: black;
 }
 .overlay h1{
-   font-weight:bolder;
+   font-weight:900;
    font-size: 5em;
    text-align: center;
    left: 6.2em;
@@ -106,7 +120,7 @@ nav {
 }
 
 .overlay h2{
-   font-weight: bold;
+   font-weight: bolder;
    font-size: 2.7em;
    mix-blend-mode: overlay;
    left: 13em;
@@ -116,7 +130,7 @@ nav {
 }
 
 .overlay p{
-   font-weight: bold;
+   font-weight: bolder;
    font-size: 1.5em;
    mix-blend-mode: overlay;
    left: 6em;
@@ -127,7 +141,7 @@ nav {
 }
 
 .overlay h3{
-   font-weight: bold;
+   font-weight: bolder;
    font-size: 2.7em;
    mix-blend-mode: overlay;
    left: 12em;
@@ -137,7 +151,7 @@ nav {
 }
 
 .overlay .para{
-   font-weight: bold;
+   font-weight: bolder;
    font-size: 1.5em;
    mix-blend-mode: overlay;
    left: 6em;
@@ -147,7 +161,7 @@ nav {
    top: 28em;
 }
 .overlay h4{
-   font-weight: bold;
+   font-weight: bolder;
    font-size: 2.7em;
    mix-blend-mode: overlay;
    left: 10em;
@@ -156,18 +170,19 @@ nav {
    top: 18em;
 }
 .overlay button{
-   font-weight: bold;
+   font-weight: bolder;
    font-size: 1.7em;
    mix-blend-mode: overlay;
    left: 19.5em;
    text-align: center;
    position:absolute;
    top: 33em;
+   background-color: transparent;
 }
 
 .overlay button:hover{
-   color: white;
-   background-color: rgb(13, 64, 81);
+   color: black;
+   background-color: white ;
 
 }
 
@@ -228,26 +243,28 @@ video{
 .as{
    width: 100%;
    height: 35em;
-   background-color: rgb(13, 64, 81);
+   background-color: #5d7892;
    display: flex;
    border-top: 4px dashed black;
    border-bottom: 4px dashed black;
 }
 .as button:hover {
-   color: rgb(13, 64, 81);
-   background-color: rgb(159, 236, 236);
+   color: white;
+   background-color: black;
 }
 .bruh1{
    padding-left: 5em;
    padding-right: 5em;
    font-size: 30px;
    font-family: "Gill Sans", sans-serif;
-   color: rgb(159, 236, 236);
+   color: white;
 
 }
 .head1{
-   font-size: 4em;
-   color: rgb(10, 179, 179);
+    font-size: 4em;
+    text-shadow:3px 2px 1px rgb(187, 232, 255);
+
+   color: black;
    margin-left: 2.3em;
 
 }
@@ -318,7 +335,7 @@ button{
 }
 
 .marq:hover {
-    animation-play-state: paused;
+    animation-play-state:running;
 }
 
 /* ========================
