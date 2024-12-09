@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     display: block;
-    background-image:linear-gradient(to bottom, rgb(13, 64, 81), white);
+    background-image:linear-gradient(to bottom, #c5d2df, white);
 
 }
 
@@ -21,59 +21,73 @@ nav {
 }
 
 /* This is for nav-bar buttons only */
-.nav-btn {
+nav {
+    background-color: #ffffff;
+    display: flex;
+    height: 2.5rem;
+    padding: 1em;
+    justify-content: space-between;
+    margin-top: 1.5em;
+    padding: 1em;
+    align-items: center;
+    
+  }
+  
+  /* This is for nav-bar buttons only */
+  .nav-btn {
     text-decoration: none;
     color: black;
     padding: 0.5em;
     margin:0.5em;
-    color: rgb(72, 104, 104);
-}
-
-
-/* Navbar Logo */
-
-#vip {
+  
+    
+  }
+  
+  
+  /* Navbar Logo */
+  
+  #vip {
     width: 3em;
     height: 3em;
     margin-left: 3.5em;
-}
-
-
-/* This is for left side buttons */
-
-.left {
+  }
+  
+  
+  /* This is for left side buttons */
+  
+  .left {
     margin-left: -10em;
-
-}
-.left a {
+  
+  }
+  .left a {
     font-weight: bold;
     padding-right:1.3em ;
     padding-left: 1.3em;
-}
-.left a:hover{
+  }
+  .left a:hover{
     border: 1px solid black;
     border-radius: 1em;
-    background-color: rgb(13, 64, 81);
-    color: rgb(161, 233, 242);
-}
-
-/* This is for right side buttons */
-.right {
+    background-color: #333;
+    color: white;
+  }
+  
+  /* This is for right side buttons */
+  .right {
     margin-left: 40em;
     margin-right: 7rem;
-}
-.right a {
+  }
+  .right a {
     border: 1px solid black;
     border-top-right-radius: 1em;
     border-bottom-left-radius: 1em;
-    background-color: rgb(13, 64, 81);
+    background-color: #333;
     color: white;
-}
-.right a:hover{
-    background-color: rgb(161, 233, 242);
-    color: rgb(72, 104, 104);
+  }
+  .right a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: bold;
-}
+  }
 
  /* Greeting section */
  .greet {
@@ -84,29 +98,29 @@ nav {
 
 .greet h1 {
     font-size: 3em;
-    color: rgb(161, 233, 242);
-    text-shadow: 15px 15px 4px rgb(10, 41, 45);
+    color: black;
+    text-shadow:4px 3px 1px rgb(187, 232, 255);
     transition: all 0.3s ease;
 }
 
 .greet h1:hover {
     font-size: 3.05em;
-    text-shadow: 21px 21px 4px rgb(9, 43, 47);
+    text-shadow: 10px 7px 2px rgb(160, 189, 204);
 }
 
 /* Introduction section */
 .intro {
-    background-color: rgb(35, 137, 150);
+    background-color: #5d7892;
     padding: 3em;
     margin: 2em 5em;
     border-radius: 2em;
-    box-shadow: 15px 15px 5px rgb(161, 233, 242);
+    box-shadow: 15px 15px 5px black;
     transition: all 0.3s ease;
 }
 
 .intro:hover {
     transform: translateY(-5px);
-    box-shadow: 20px 20px 10px rgb(161, 233, 242);
+    box-shadow: 20px 20px 10px black;
 }
 
 .intro p {
@@ -117,18 +131,18 @@ nav {
 }
 
 .intro h4 {
-    color: rgb(161, 233, 242);
+    color: black;
     font-size: 1.3em;
     text-align: center;
     margin-bottom: 1.5em;
     font-style: italic;
-    text-shadow: 2px 2px 1px rgb(10, 41, 45);
+    text-shadow:1px 1px 1px rgb(187, 232, 255);
     transition: all 0.3s ease;
 }
 
 .intro:hover h4 {
     transform: scale(1.02);
-    text-shadow: 3px 3px 2px rgb(10, 41, 45);
+    text-shadow:1px 3px 1px rgb(187, 232, 255);
 }
 
 /* Overview section */
@@ -139,10 +153,10 @@ nav {
 }
 
 .mission {
-    background-color: rgb(35, 137, 150);
+    background-color: #5d7892;
     padding: 3em;
     border-radius: 2em;
-    box-shadow: 15px 15px 5px rgb(161, 233, 242);
+    box-shadow: 15px 15px 5px black;
     width: 100%;
 }
 
@@ -156,46 +170,46 @@ nav {
 }
 
 .mission h2 {
-    color: rgb(161, 233, 242);
+    color: black;
     font-size: 2.5em;
     text-align: center;
     margin-bottom: 0.5em;
-    text-shadow: 4px 4px 2px rgb(10, 41, 45);
+    text-shadow:3px 2px 1px rgb(187, 232, 255);
     transition: all 0.3s ease;
 }
 
 .mission:hover h2 {
     transform: scale(1.02);
-    text-shadow: 6px 6px 3px rgb(10, 41, 45);
+    text-shadow:4px 3px 1px rgb(187, 232, 255);
 }
 
 /* Facility section */
 .facility {
-    background-color: rgb(35, 137, 150);
+    background-color: #5d7892;
     padding: 3em;
     margin: 2em 5em;
     border-radius: 2em;
-    box-shadow: 15px 15px 5px rgb(161, 233, 242);
+    box-shadow: 15px 15px 5px black;
     color: white;
     transition: all 0.3s ease;
 }
 
 .facility:hover {
     transform: translateY(-5px);
-    box-shadow: 20px 20px 10px rgb(161, 233, 242);
+    box-shadow: 20px 20px 10px black;
 }
 
 .facility h2 {
-    color: rgb(161, 233, 242);
+    color: black;
     font-size: 2em;
     text-align: center;
     margin-bottom: 1em;
-    text-shadow: 4px 4px 2px rgb(10, 41, 45);
+    text-shadow:3px 2px 1px rgb(187, 232, 255);
 }
 
 .facility:hover h2 {
     transform: scale(1.02);
-    text-shadow: 6px 6px 3px rgb(10, 41, 45);
+    text-shadow:4px 3px 1px rgb(187, 232, 255);
 }
 
 .facility p {
@@ -224,43 +238,43 @@ nav {
 
 /* Member section */
 .member {
-    background-color: rgb(35, 137, 150);
+    background-color: #5d7892;
     padding: 3em;
     margin: 2em 5em;
     border-radius: 2em;
-    box-shadow: 15px 15px 5px rgb(161, 233, 242);
+    box-shadow: 15px 15px 5px black;
     color: white;
     transition: all 0.3s ease;
 }
 
 .member:hover {
     transform: translateY(-5px);
-    box-shadow: 20px 20px 10px rgb(161, 233, 242);
+    box-shadow: 20px 20px 10px black;
 }
 
 .member h2 {
-    color: rgb(161, 233, 242);
+    color: black;
     font-size: 2em;
     text-align: center;
     margin-bottom: 1em;
-    text-shadow: 4px 4px 2px rgb(10, 41, 45);
+    text-shadow:3px 2px 1px rgb(187, 232, 255);
 }
 
 .member:hover h2 {
     transform: scale(1.02);
-    text-shadow: 6px 6px 3px rgb(10, 41, 45);
+    text-shadow:4px 3px 1px rgb(187, 232, 255);
 }
 
 .member h3 {
-    color: rgb(161, 233, 242);
+    color: black;
     font-size: 1.5em;
     margin: 1em 0;
-    text-shadow: 2px 2px 1px rgb(10, 41, 45);
+    text-shadow:3px 2px 1px rgb(187, 232, 255);
 }
 
 .member:hover h3 {
     transform: scale(1.02);
-    text-shadow: 6px 6px 3px rgb(10, 41, 45);
+    text-shadow:4px 3px 1px rgb(187, 232, 255);
 }
 
 .member p {
@@ -293,33 +307,33 @@ nav {
 .coach > h1 {
     font-size: 3em;
     text-align: center;
-    color: rgb(161, 233, 242);
-    text-shadow: 15px 15px 4px rgb(10, 41, 45);
+    color: black;
+    text-shadow:4px 3px 1px rgb(187, 232, 255);
     transition: all 0.3s ease;
     margin-bottom: 1.5em;
 }
 
 .coach > h1:hover {
     transform: scale(1.02);
-    text-shadow: 21px 21px 4px rgb(9, 43, 47);
+    text-shadow:6px 5px 1px rgb(187, 232, 255);
 }
 
 /* Coach containers */
 .container, .container1 {
-    background-color: rgb(35, 137, 150);
+    background-color: #5d7892;
     padding: 3em;
     margin: 5em auto;
     border-radius: 2em;
     display: flex;
     align-items: center;
-    box-shadow: 15px 15px 5px rgb(161, 233, 242);
+    box-shadow: 15px 15px 5px black;
     max-width: 1000px;
     transition: all 0.3s ease;
 }
 
 .container:hover, .container1:hover {
     transform: translateY(-5px);
-    box-shadow: 20px 20px 10px rgb(161, 233, 242);
+    box-shadow: 20px 20px 10px black;
 }
 
 .container {
@@ -332,17 +346,17 @@ nav {
 
 .container:hover .img, .container1:hover .img {
     transform: scale(1.05);
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 15px black;
 }
 
 /* Coach info boxes */
 .boxl, .boxr {
-    background-image: linear-gradient(to bottom, rgb(167, 201, 201), rgb(72, 104, 104));
+    background-image: linear-gradient(to bottom, rgb(160, 189, 204), white);
     text-align: center;
     width: 40em;
     border-radius: 2em;
     padding: 2em;
-    box-shadow: 10px 10px 5px lightblue;
+    box-shadow: 10px 10px 5px black;
     transition: all 0.3s ease;
 }
 
@@ -378,9 +392,9 @@ nav {
     margin:1em;
     width: 24em;
     height: 40em;
-    background-color:rgb(35, 137, 150);
+    background-color:#5d7892;
     border-radius: 2em;
-    box-shadow: 15px 15px 5px rgb(161, 233, 242);
+    box-shadow: 15px 15px 5px black;
     margin-bottom: 5em;
     margin-left: 5em;
 }
@@ -396,11 +410,11 @@ nav {
     padding-top: 2em;
     width: 20em;
     height: 5em;
-    background-image: linear-gradient(to bottom, rgb(167, 201, 201), rgb(72, 104, 104));
+    background-image: linear-gradient(to bottom, rgb(160, 189, 204), white);
     text-align: center;
     border-radius: 2em;
-    box-shadow: 10px 10px 5px lightblue;
-    margin-left: 2em;
+    box-shadow: 10px 10px 5px black;
+    margin-left : 2em;
     margin-top: 4em;
 }
 
@@ -414,15 +428,15 @@ nav {
     font-size: 5em;
     margin-top: 3em;
     margin-bottom: 2.5em;
-    color: rgb(4, 99, 109);
+    color: black;
     margin-left: 2em;
-    text-shadow: 6px 6px 4px aqua;
+    text-shadow:6px 6px 4px rgb(187, 232, 255);
 }
 
 .achiv-heading:hover {
     font-size: 5.05em;
-    text-shadow:  16px 16px 14px aqua;
-    color: rgb(4, 99, 109);
+    text-shadow:14px 13px 6px rgb(187, 232, 255);
+    color: black;
 }
 
 
