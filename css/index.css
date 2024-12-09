@@ -270,45 +270,258 @@ button{
 /* for our sponsors */
 
 .sponsor {
-   
-   height: 27em;
+    height: 27em;
+    overflow: hidden;
 }
-
-.sponsor h1 {
+.sponsor h1{
    font-size: 3em;
    text-align: center;
    text-shadow: 4px 5px 4px grey;
    margin-bottom: 2.5em;
-   
-}
-.sponsor h1:hover {
-   text-shadow: 10px 6px 5px grey;
 }
 
+.sponsor:hover h1{
+   text-shadow: 15px 6px 5px grey;
+}
 
-.marq-item img{
-   display: block;
-   width: 100%;
-   height: auto;
-   
+.marquee {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
 }
 
 .marq {
-   display: flex;
-   animation: scrolling 8s linear infinite;
-   
-   
+    display: flex;
+    width: 200%;
+    animation: marquee 20s linear infinite;
 }
 
 .marq-item {
-   flex: 0 0 16vw;
-   margin: 0  4vw;
+    flex: 0 0 16.666%;
+    padding: 0 2em;
 }
-@keyframes scrolling {
-   0% {transform:translateX(0);}
-   100% {transform: translateX(-144vw);}
+
+.marq-item img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-height: 120px;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.marq:hover {
+    animation-play-state: paused;
+}
+
+/* ========================
+   MEDIA QUERIES
+======================== */
+
+/* For screens smaller than 768px (tablets and small desktops) */
+@media screen and (max-width: 768px) {
+
+   /* Navbar Section */
+   nav {
+       flex-direction: column;
+       padding: 1em;
+   }
+   .left, .right {
+       display: flex;
+       justify-content: center;
+       margin-left: 0;
+       margin-top: 1em;
+   }
+   .nav-btn {
+       font-size: 1.2em;
+       padding: 0.8em 1.5em;
+   }
+   .nav-btn:hover {
+       background-color: rgb(13, 64, 81);
+       color: white;
+   }
+
+   /* Showcase Section */
+   #isec {
+       height: 60vh; /* Reduced height on smaller screens */
+   }
+   video {
+       object-fit: cover;
+       object-position: center;
+   }
+   .overlay h1 {
+       font-size: 3.5em;
+       top: 1.2em;
+   }
+   .overlay h2 {
+       font-size: 2em;
+       top: 4em;
+   }
+   .overlay p {
+       font-size: 1.3em;
+       top: 9em;
+   }
+   .overlay h3 {
+       font-size: 2em;
+       top: 6em;
+   }
+   .overlay button {
+       font-size: 1.2em;
+       top: 16em;
+   }
+
+   /* Highlight Section */
+   .parent {
+       flex-direction: column;
+       text-align: center;
+   }
+   .high {
+       width: 100%;
+       height: auto;
+       margin: 2em 0;
+   }
+   .bruh {
+       font-size: 1.5em;
+   }
+
+   /* Join Our Club Section */
+   .as {
+       flex-direction: column;
+       text-align: center;
+   }
+   .high1 {
+       width: 100%;
+       height: auto;
+   }
+   .head1 {
+       font-size: 2.5em;
+   }
+   .bruh1 {
+       font-size: 1.4em;
+       padding: 1em;
+   }
+
+   /* Sponsors Section */
+   .marq-item {
+       flex: 0 0 33.333%; /* Show 3 items per row */
+   }
+   .marquee {
+       overflow: hidden;
+   }
+
+   /* Alumni Section */
+   .alumni {
+       flex-direction: column;
+       align-items: center;
+   }
+   .alumni img {
+       height: 15em;
+       width: 15em;
+       padding: 2em;
+   }
+   .alumni h2 {
+       font-size: 1.5em;
+   }
+
+   /* News Section */
+   .news {
+       flex-direction: column;
+       align-items: center;
+   }
+   .news-box {
+       width: 80%;
+       margin-bottom: 1em;
+   }
+   .news-box h2 {
+       font-size: 1.5em;
+   }
+   .news-box p {
+       font-size: 1em;
+   }
+
+   /* Footer Section */
+   .footer {
+       flex-direction: column;
+       padding: 2em;
+   }
+   .logo-nav {
+       flex-direction: column;
+       align-items: center;
+   }
+   .fot-sec {
+       display: block;
+       text-align: center;
+   }
+   .fot-btn {
+       display: block;
+       text-align: center;
+       margin: 1em 0;
+   }
+   .column1 {
+       margin-top: 1em;
+   }
+}
+
+/* For very small screens (phones in portrait mode or small devices) */
+@media screen and (max-width: 480px) {
+   body {
+       font-size: 14px;
+   }
+
+   /* Navbar Section */
+   .nav-btn {
+       font-size: 1em;
+       padding: 0.5em 1em;
+   }
+
+   /* Showcase Section */
+   .overlay h1 {
+       font-size: 2.5em;
+   }
+   .overlay h2 {
+       font-size: 1.5em;
+   }
+   .bruh {
+       font-size: 1.2em;
+   }
+
+   /* Highlight Section */
+   .head {
+       font-size: 2em;
+   }
+
+   /* Join Our Club Section */
+   .head1 {
+       font-size: 2em;
+   }
+   .bruh1 {
+       font-size: 1.2em;
+       padding: 1em;
+   }
+
+   /* News Section */
+   .news-box h2 {
+       font-size: 1.3em;
+   }
+
+   /* Alumni Section */
+   .alumni h2 {
+       font-size: 1.3em;
+   }
    
+   .alumni img {
+       height: 12em;
+       width: 12em;
+   }
 }
+
 
 /* alumni section  */
 
