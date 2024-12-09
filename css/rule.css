@@ -38,7 +38,7 @@ nav {
   text-decoration: none;
   color: black;
   padding: 0.5em;
-  margin:0.5em;
+  
 
   
 }
@@ -56,7 +56,7 @@ nav {
 /* This is for left side buttons */
 
 .left {
-  margin-left: -10em;
+  margin-left: 2em;
 
 }
 .left a {
@@ -73,8 +73,8 @@ nav {
 
 /* This is for right side buttons */
 .right {
-  margin-left: 40em;
-  margin-right: 7rem;
+  margin-left: 33em;
+  margin-right: 8rem;
 }
 .right a {
   border: 1px solid black;
@@ -82,6 +82,7 @@ nav {
   border-bottom-left-radius: 1em;
   background-color: #333;
   color: white;
+  margin-right: 1.5em;
 }
 .right a:hover{
   background-color: rgb(255, 255, 255);
@@ -115,10 +116,11 @@ nav {
     background-image: linear-gradient(to bottom, rgb(160, 189, 204), white);
     text-align: center;
     width: 30%;
-    height: 40em;
+    
     margin: 1.5%;
     border: 2px solid rgb(13, 64, 81);
     border-radius: 2em;
+    
 
 }
 h1 {
