@@ -3,83 +3,96 @@ body {
     margin: 0;
     padding: 0;
     display: block;
-    background-image:linear-gradient(to bottom, rgb(13, 64, 81), white);
+    background-image:linear-gradient(to bottom, #c5d2df, white);
 
 }
 
 /* This is for nav bar */
 nav {
-    background-color: white;
-    display: flex;
-    height: 2.5rem;
-    padding: 1em;
-    justify-content: space-between;
-    margin-top: 1.5em;
-    padding: 1em;
-    align-items: center;
-    
+  background-color: white;
+  display: flex;
+  height: 2.5rem;
+  padding: 1em;
+  justify-content: space-between;
+  margin-top: 1.5em;
+  padding: 1em;
+  align-items: center;
+  
+}
+
+/* This is for nav-bar buttons only */
+nav {
+  background-color: white;
+  display: flex;
+  height: 2.5rem;
+  padding: 1em;
+  justify-content: space-between;
+  margin-top: 1.5em;
+  padding: 1em;
+  align-items: center;
+  
 }
 
 /* This is for nav-bar buttons only */
 .nav-btn {
-    text-decoration: none;
-    color: black;
-    padding: 0.5em;
-    margin:0.5em;
-    color: rgb(72, 104, 104);
-    
+  text-decoration: none;
+  color: black;
+  padding: 0.5em;
+  margin:0.5em;
+
+  
 }
 
 
 /* Navbar Logo */
 
 #vip {
-    width: 3em;
-    height: 3em;
-    margin-left: 3.5em;
+  width: 3em;
+  height: 3em;
+  margin-left: 3.5em;
 }
 
 
 /* This is for left side buttons */
 
 .left {
-    margin-left: -10em;
+  margin-left: -10em;
 
 }
 .left a {
-    font-weight: bold;
-    padding-right:1.3em ;
-    padding-left: 1.3em;
+  font-weight: bold;
+  padding-right:1.3em ;
+  padding-left: 1.3em;
 }
 .left a:hover{
-    border: 1px solid black;
-    border-radius: 1em;
-    background-color: rgb(13, 64, 81);
-    color: rgb(161, 233, 242);
+  border: 1px solid black;
+  border-radius: 1em;
+  background-color: #333;
+  color: white;
 }
 
 /* This is for right side buttons */
 .right {
-    margin-left: 40em;
-    margin-right: 7rem;
+  margin-left: 40em;
+  margin-right: 7rem;
 }
 .right a {
-    border: 1px solid black;
-    border-top-right-radius: 1em;
-    border-bottom-left-radius: 1em;
-    background-color: rgb(13, 64, 81);
-    color: white;
+  border: 1px solid black;
+  border-top-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+  background-color: #333;
+  color: white;
 }
 .right a:hover{
-    background-color: rgb(161, 233, 242);
-    color: rgb(72, 104, 104);
-    font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
 }
 
 /* main content */
 
 .container {
-    background-color: rgb(35, 137, 150);
+    background-color: #5d7892;
     display: flex;
     flex-wrap: wrap;
     width: 90%;
@@ -89,7 +102,7 @@ nav {
     border-radius: 3em;
 }
 .container1 {
-    background-color: rgb(35, 137, 150);
+    background-color: #5d7892;
     display: flex;
     flex-wrap: wrap;
     width: 90%;
@@ -99,7 +112,7 @@ nav {
 }
 
 .box {
-    background-image: linear-gradient(to bottom, rgb(167, 201, 201), rgb(72, 104, 104));
+    background-image: linear-gradient(to bottom, rgb(160, 189, 204), white);
     text-align: center;
     width: 30%;
     height: 40em;
@@ -111,11 +124,11 @@ nav {
 h1 {
     font-size: 4em;                       /* main heading */
     text-decoration:none;
-    text-shadow: 5px 5px 2px rgb(110, 173, 195);
+    text-shadow:5px 3px 1px rgb(160, 189, 204);
 }
 h1:hover {
     font-size: 4.05em;
-    text-shadow: 10px 10px 2px rgb(110, 173, 195);
+    text-shadow: 20px 10px 2px rgb(160, 189, 204);
     text-decoration: none;
 }
 h2 {
