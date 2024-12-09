@@ -136,7 +136,7 @@ nav {
    top: 12em;
 }
 
-.overlay p1{
+.overlay .para{
    font-weight: bold;
    font-size: 1.5em;
    mix-blend-mode: overlay;
@@ -307,6 +307,7 @@ button{
 @keyframes scrolling {
    0% {transform:translateX(0);}
    100% {transform: translateX(-144vw);}
+   
 }
 
 /* alumni section  */
