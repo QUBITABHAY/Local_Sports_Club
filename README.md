@@ -7,13 +7,13 @@ Welcome to the Local sports club! We are a community-oriented club dedicated to 
 #
 ## 📚 Table of Contents :-
 
-- [Home](#home)
-- [Gallery](#gallery)
-- [About Us](#about-us)
-- [Rules And Regulations](#rules-and-regulations)
-- [Events and Tournaments](#events-and-tournaments)
-- [FAQs](#FAQs)
-- [Contact Us](#contact-us)
+- [Home](https://local-sports-club.vercel.app/index.html)
+- [Gallery](https://local-sports-club.vercel.app/gallery.html)
+- [About Us](https://local-sports-club.vercel.app/about.html)
+- [Rules And Regulations](https://local-sports-club.vercel.app/rule.html)
+- [Events and Tournaments](https://local-sports-club.vercel.app/calendar.html)
+- [FAQs](https://local-sports-club.vercel.app/faq.html)
+- [Our Sports](https://local-sports-club.vercel.app/sports.html)
 
 
 #
@@ -45,7 +45,7 @@ Each sport is available for different age groups and skill levels, including you
 ## Rules And Regulations:-
 
 ####  1. **Registration:** 
-To participate, First you have to fill the [registration form](#rules-and-regulations).
+To participate, First you have to fill the [registration form](https://local-sports-club.vercel.app/register.html).
 - After registration, you’ll have access to all of our sports programs, facilities, and upcoming events.
 
 #### 2. **Eligibility:** 
@@ -61,7 +61,7 @@ All individuals wishing to join the club must meet the eligibility criteria as d
 #
 ## To become a member of our club, please register by following these steps:-
 
-1. **Sign up**: Visit our [Rules And Regulations](#rules-and-regulations) to complete the registration form.
+1. **Sign up**: Visit our [Rules And Regulations](https://local-sports-club.vercel.app/rule.html) to complete the registration form.
 2. **Pay dues**: Fees can be paid online or at the club's reception.
 3. **Start participating**: Once you're registered, you can join any of our sports programs.
 
@@ -101,14 +101,14 @@ We regularly host various events and tournaments throughout the year. These incl
 - **Inter-club Tournaments**: Competitions against other local clubs.
 - **Holiday Leagues**: Seasonal leagues and fun tournaments for regestered members.
 
-Be sure to check our website [Local Sports Club]() for upcoming events and how to register!
+Be sure to check our website [Local Sports Club](https://local-sports-club.vercel.app/index.html) for upcoming events and how to register!
 
 #
 ## Contact Us:-
 
 For any questions, inquiries, or feedback, please reach out to us:
 
-- **Email**: [localsportsclub@gmail.com]()
+- **Email**: [localsportsclub05@gmail.com](mailto:localsportsclub05@gmail.com)
 - **Phone**: 6396721301
 - **Address**: [ADYPU campus, Lohegaon, Pune, Maharashtra](https://maps.app.goo.gl/JJr8rh8N6BWLpsKN9)
 - **Business Hours**: Monday – Friday: 9:00 AM – 1:00 PM and 3:30 PM 5:50 PM | Saturday: 10:00 AM – 1:00 PM
