@@ -161,6 +161,12 @@ nav {
     width: 100%;
 }
 
+.mission:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+    box-shadow: 20px 20px 10px black;
+}
+
 .mission p {
     color: white;
     font-size: 1.1em;
@@ -389,22 +395,24 @@ nav {
 /* achievement */
 
 .achievement{
-    padding: 3em;
-    margin:1em;
-    width: 24em;
-    height: 40em;
+    padding: 2em;
+    margin: 1em;
+    width: 20em;
+    height: 35em;
     background-color:#5d7892;
     border-radius: 2em;
     box-shadow: 15px 15px 5px black;
     margin-bottom: 5em;
     margin-left: 5em;
+    align-self: center;
 }
 
 .imga{
-    width: 20em;
+    width: 18em;
     height: 20em;
     border-radius: 5em;
-    padding: 2em;
+    padding: 1.5em;
+    
 }
 
 .achiv-text{
@@ -415,28 +423,29 @@ nav {
     text-align: center;
     border-radius: 2em;
     box-shadow: 10px 10px 5px black;
-    margin-left : 2em;
-    margin-top: 4em;
+    margin-left : 0.2em;
+    margin-top: 3em;
 }
 
 .achievements{
     padding: 0em;
     margin-left: 0em;
     display: flex;
+    
 }
 
 .achiv-heading {
-    font-size: 5em;
-    margin-top: 3em;
-    margin-bottom: 2.5em;
+    font-size: 4.5em;
+    margin-top: -1em;
+    margin-bottom: 1em;
     color: black;
-    margin-left: 2em;
+    margin-left: 1.5em;
     text-shadow:6px 6px 4px rgb(187, 232, 255);
 }
 
 .achiv-heading:hover {
     font-size: 5.05em;
-    text-shadow:14px 13px 6px rgb(187, 232, 255);
+    text-shadow:10px 10px 6px rgb(187, 232, 255);
     color: black;
 }
 
@@ -508,74 +517,3 @@ footer {
  
  /* footer ends here */
 
-/* Hover effect on mission */
-.mission:hover {
-    transform: translateY(-5px);
-    transition: transform 0.3s ease;
-    box-shadow: 20px 20px 10px rgb(161, 233, 242);
-}
-
-/* Responsive design */
-@media screen and (max-width: 768px) {
-    .overview {
-        margin: 2em;
-    }
-    
-    .mission {
-        padding: 2em;
-    }
-    
-    .mission p {
-        font-size: 1em;
-        line-height: 1.6;
-        padding: 0.5em;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .greet h1 {
-        font-size: 2em;
-    }
-    
-    .intro, .facility, .member {
-        margin: 2em;
-        padding: 2em;
-    }
-    
-    .overview {
-        flex-direction: column;
-        margin: 2em;
-    }
-    
-    .facility h2, .member h2 {
-        font-size: 1.8em;
-    }
-    
-    .member h3 {
-        font-size: 1.3em;
-    }
-}
-
-/* Update responsive styles */
-@media screen and (max-width: 768px) {
-    .intro h4 {
-        font-size: 1.1em;
-    }
-    
-}
-
-@media screen and (max-width: 1200px) {
-    .achievements {
-        flex-wrap: wrap;
-    }
-    
-    .achievement {
-        flex: 0 0 calc(50% - 3em);
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .achievement {
-        flex: 0 0 100%;
-    }
-}
