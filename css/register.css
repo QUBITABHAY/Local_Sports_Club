@@ -22,21 +22,7 @@ body{
     border: 1px solid #e1e1e1;
 }
 
-/* Make it responsive for mobile devices */
-@media screen and (max-width: 480px) {
-    #login {
-        min-width: 300px;
-        max-width: 100%;
-        padding: 1.5em;
-        margin: 10px;
-    }
-    
-    .registration-title {
-        font-size: 1.5em;
-        margin-bottom: 1em;
-    }
-}
-
+/* For all label tag */
 label {
     color: #333;
     font-size: 0.9em;
@@ -46,6 +32,7 @@ label {
     display: block;
 }
 
+/* For all input tag */
 input{
     width: 100%;
     padding: 0.8em;
@@ -62,7 +49,8 @@ input:focus {
     box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
 }
 
-input[type="button"] {
+/* Register button sty;e */
+input[type="submit"] {
     background-color: #4A90E2;
     color: white;
     font-weight: bold;
@@ -72,10 +60,11 @@ input[type="button"] {
     margin-top: 1.5em;
 }
 
-input[type="button"]:hover {
+input[type="submit"]:hover {
     background-color: #357ABD;
 }
 
+/* Radio btn */
 .radio-container{
     display: flex;
     align-items: center;
@@ -94,16 +83,12 @@ input[type="button"]:hover {
 }
 
 /* Fix for number input spinner */
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
 
-input[type="number"] {
-    -moz-appearance: textfield;
-}
-
+/* Registration title */
 .registration-title {
     text-align: center;
     color: #333;
@@ -114,6 +99,7 @@ input[type="number"] {
     border-bottom: 2px solid #4A90E2;
 }
 
+/* Select plan section */
 select {
     width: 100%;
     padding: 0.8em;
@@ -152,6 +138,8 @@ select option:focus {
     color: white;
 }
 
+
+/* Success message */
 .success-message {
     display: none;
     position: fixed;
@@ -199,7 +187,7 @@ select option:focus {
     }
 }
 
-/* Add responsive styling for success message */
+/* Responsive styling for success message */
 @media screen and (max-width: 480px) {
     .success-content {
         width: 300px;
@@ -211,153 +199,17 @@ select option:focus {
     }
 }
 
-/* Greeting section */
-.greet {
-    text-align: center;
-    margin: 2em 0;
-    padding: 2em;
-}
-
-.greet h1 {
-    font-size: 3em;
-    color: rgb(161, 233, 242);
-    text-shadow: 15px 15px 4px rgb(10, 41, 45);
-    transition: all 0.3s ease;
-}
-
-.greet h1:hover {
-    font-size: 3.05em;
-    text-shadow: 21px 21px 4px rgb(9, 43, 47);
-}
-
-/* Introduction section */
-.intro {
-    background-color: rgb(35, 137, 150);
-    padding: 3em;
-    margin: 2em 5em;
-    border-radius: 2em;
-    box-shadow: 15px 15px 5px rgb(161, 233, 242);
-}
-
-.intro p {
-    color: white;
-    font-size: 1.1em;
-    line-height: 1.6;
-    text-align: justify;
-}
-
-/* Overview section */
-.overview {
-    display: flex;
-    justify-content: space-between;
-    margin: 3em 5em;
-    gap: 2em;
-}
-
-/* Facility section */
-.facility {
-    background-color: rgb(35, 137, 150);
-    padding: 3em;
-    margin: 2em 5em;
-    border-radius: 2em;
-    box-shadow: 15px 15px 5px rgb(161, 233, 242);
-    color: white;
-}
-
-.facility h2 {
-    color: rgb(161, 233, 242);
-    font-size: 2em;
-    text-align: center;
-    margin-bottom: 1em;
-    text-shadow: 4px 4px 2px rgb(10, 41, 45);
-}
-
-.facility p {
-    font-size: 1.1em;
-    line-height: 1.6;
-    margin-bottom: 1.5em;
-}
-
-.facility ul {
-    margin-left: 2em;
-    margin-bottom: 1.5em;
-}
-
-.facility li {
-    margin-bottom: 1em;
-    line-height: 1.6;
-}
-
-.facility .outerul {
-    font-weight: bold;
-    font-size: 1.2em;
-    margin-bottom: 0.5em;
-    list-style: none;
-    margin-left: 0;
-}
-
-/* Member section */
-.member {
-    background-color: rgb(35, 137, 150);
-    padding: 3em;
-    margin: 2em 5em;
-    border-radius: 2em;
-    box-shadow: 15px 15px 5px rgb(161, 233, 242);
-    color: white;
-}
-
-.member h2 {
-    color: rgb(161, 233, 242);
-    font-size: 2em;
-    text-align: center;
-    margin-bottom: 1em;
-    text-shadow: 4px 4px 2px rgb(10, 41, 45);
-}
-
-.member h3 {
-    color: rgb(161, 233, 242);
-    font-size: 1.5em;
-    margin: 1em 0;
-    text-shadow: 2px 2px 1px rgb(10, 41, 45);
-}
-
-.member p {
-    font-size: 1.1em;
-    line-height: 1.6;
-    margin-bottom: 1.5em;
-}
-
-.member ul {
-    margin-left: 2em;
-    margin-bottom: 1.5em;
-}
-
-.member li {
-    margin-bottom: 0.8em;
-    line-height: 1.6;
-}
-
-/* Responsive design */
-@media screen and (max-width: 768px) {
-    .greet h1 {
-        font-size: 2em;
+/* Responsiveness for mobile devices */
+@media screen and (max-width: 480px) {
+    #login {
+        min-width: 300px;
+        max-width: 100%;
+        padding: 1.5em;
+        margin: 10px;
     }
     
-    .intro, .facility, .member {
-        margin: 2em;
-        padding: 2em;
-    }
-    
-    .overview {
-        flex-direction: column;
-        margin: 2em;
-    }
-    
-    .facility h2, .member h2 {
-        font-size: 1.8em;
-    }
-    
-    .member h3 {
-        font-size: 1.3em;
+    .registration-title {
+        font-size: 1.5em;
+        margin-bottom: 1em;
     }
 }

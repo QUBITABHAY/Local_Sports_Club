@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/register.css">
 </head>
 <body>
     <section>
@@ -101,38 +101,13 @@
         </div>
     </section>
 
-    <!-- Add this right after your form -->
-    <div id="successMessage" class="success-message">
+    <!-- Succes Message -->
+    <div id="Message" class="success-message">
         <div class="success-content">
             <h2>Registration Successful!</h2>
-            <p>Redirecting to homepage in <span id="countdown">10</span> seconds...</p>
+            <p>Redirecting to homepage in <span id="time">10</span> seconds...</p>
         </div>
     </div>
-
-    <!-- Add this script before closing body tag -->
-    <script>
-        document.querySelector('form').addEventListener('submit', function(e) {
-            e.preventDefault(); // Prevent default form submission
-            
-            // If form is valid, show success message
-            const successMessage = document.getElementById('successMessage');
-            const countdownElement = document.getElementById('countdown');
-            let timeLeft = 10;
-            
-            // Show success message
-            successMessage.style.display = 'flex';
-            
-            // Start countdown
-            const countdown = setInterval(function() {
-                timeLeft--;
-                countdownElement.textContent = timeLeft;
-                
-                if (timeLeft <= 0) {
-                    clearInterval(countdown);
-                    window.location.href = 'index.html';
-                }
-            }, 1000);
-        });
-    </script>
 </body>
+<script src="./js/register.js"></script>
 </html>
