@@ -39,8 +39,6 @@ nav {
     color: black;
     padding: 0.5em;
     
-  
-    
   }
   
   
@@ -93,6 +91,17 @@ nav {
 
 /* video prop */
 
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100;
+    height: 100;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+ }
 
 #isec {
    position: relative;
@@ -171,6 +180,9 @@ nav {
    position:absolute;
    top: 75%;
 }
+
+/* button over video */
+
 .overlay button{
    font-weight: bolder;
    font-size: 1.7em;
@@ -179,28 +191,17 @@ nav {
    text-align: center;
    position:absolute;
    top: 91%;
-   background-color: transparent;
+   background-color:white;
 }
 
 .overlay button:hover{
-   color: black;
-   background-color: white ;
+   color: white;
+   background-color:#333;
 
 }
 
 
-video{
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100;
-   height: 100;
-   -o-object-fit: cover;
-   object-fit: cover;
-   -o-object-position: center;
-   object-position: center;
-}
- /* Image Prop */
+ /* meet our champ section */
  
  
  img{
@@ -245,9 +246,12 @@ video{
    margin-bottom: 1em;
    
 }
+
+/* join our club section */
+
 .as{
    width: 100%;
-   height: 35em;
+   height: auto;
    background-color: #5d7892;
    display: flex;
    border-top: 4px dashed black;
@@ -343,11 +347,94 @@ button{
     animation-play-state:running;
 }
 
+
+
+
+/* alumni section  */
+
+.alumni {
+    display: flex;
+    justify-content: center;
+   
+ }
+ 
+ .alumni img {
+    height: 15em;
+    width: 15em;
+    padding: 3em;
+    
+    border-radius: 50%;
+ }
+ .alumni img:hover {
+    box-shadow: 1px 1px 1px 1px black;
+ } 
+ .alumni-h1 {
+    font-size: 2em;
+    margin-left: 3.5em;
+    text-shadow: 4px 5px 4px grey;
+ }
+ .alumni-h1:hover {
+    text-shadow: 15px 6px 5px grey;
+ }
+ .alumni h2 {
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 4em;
+    margin-left: 3em;
+ }
+ 
+ /* news section */
+ 
+ .news {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5em;
+ 
+ }
+ .news-h1 {
+    text-align: center;
+    font-size: 3.5em;
+    text-shadow: 4px 5px 4px grey;
+    margin-bottom: 2em;
+ }
+ .news-h1:hover {
+    text-shadow: 15px 6px 5px grey;
+ }
+ .news img{
+    height: 20em;
+    width: 25em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    
+ }
+ .news-box {
+    display: inline;
+    border: 3px solid black;
+    margin-left: 2.5em;
+    width: 25em;
+    border-radius: 1em;
+ }
+ .news-box h2{
+    text-align: center;
+ }
+ .news-box p {
+    font-size: 1.2em;
+    padding: 1em;
+    text-align: center;
+ }
+ .news-box:hover {
+    box-shadow:6px 6px 6px black ;
+ }
+
+ 
+
+
 /* ========================
    MEDIA QUERIES
 ======================== */
 
 /* For screens smaller than 768px (tablets and small desktops) */
+
 @media screen and (max-width: 768px) {
 
    /* Navbar Section */
@@ -547,84 +634,7 @@ button{
 }
 
 
-/* alumni section  */
-
-.alumni {
-   display: flex;
-   justify-content: center;
-  
-}
-
-.alumni img {
-   height: 15em;
-   width: 15em;
-   padding: 3em;
-   
-   border-radius: 50%;
-}
-.alumni img:hover {
-   box-shadow: 1px 1px 1px 1px black;
-} 
-.alumni-h1 {
-   font-size: 2em;
-   margin-left: 3.5em;
-   text-shadow: 4px 5px 4px grey;
-}
-.alumni-h1:hover {
-   text-shadow: 15px 6px 5px grey;
-}
-.alumni h2 {
-   font-size: 2em;
-   margin-top: 1em;
-   margin-bottom: 4em;
-   margin-left: 3em;
-}
-
-/* news section */
-
-.news {
-   display: flex;
-   justify-content: center;
-   margin-bottom: 5em;
-
-}
-.news-h1 {
-   text-align: center;
-   font-size: 3.5em;
-   text-shadow: 4px 5px 4px grey;
-   margin-bottom: 2em;
-}
-.news-h1:hover {
-   text-shadow: 15px 6px 5px grey;
-}
-.news img{
-   height: 20em;
-   width: 25em;
-   border-top-left-radius: 1em;
-   border-top-right-radius: 1em;
-   
-}
-.news-box {
-   display: inline;
-   border: 3px solid black;
-   margin-left: 2.5em;
-   width: 25em;
-   border-radius: 1em;
-}
-.news-box h2{
-   text-align: center;
-}
-.news-box p {
-   font-size: 1.2em;
-   padding: 1em;
-   text-align: center;
-}
-.news-box:hover {
-   box-shadow:6px 6px 6px black ;
-}
-
-
- /* Footer */
+ /* Footer section */
 
  .footer {
    background-color: #333;
