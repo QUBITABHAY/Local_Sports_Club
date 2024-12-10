@@ -452,7 +452,7 @@ nav {
 
 /* Footer */
 
-footer {
+.footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
@@ -512,6 +512,13 @@ footer {
   
   .column1{
     margin-top: 2em;
+  }
+  .copyright {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: -7em;
   }
  
  

@@ -149,12 +149,12 @@ nav {
 }
 
 /* for heading */
-h1 {
+.box h1 {
     font-size: 2em;
 }
 
 /* for para */
-p {
+.box p {
     font-size: 1.5em;
     font-family: "Gill Sans", sans-serif;
     padding-left: 4em;
@@ -164,13 +164,13 @@ p {
 
 /* Footer */
 
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-  }
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
   
   /* Logo footer */
   .logo-nav{
@@ -225,6 +225,13 @@ footer {
     text-decoration: underline;
     color: lightblue;
   }
- 
+  .copyright {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+   margin-top: -7em;
+
+ }
  
  /* footer ends here */

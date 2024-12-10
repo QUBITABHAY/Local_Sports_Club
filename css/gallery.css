@@ -261,7 +261,7 @@ nav {
   /* footer section */
 
 
- footer {
+ .footer {
   background-color: #333;
   color: #fff;
   padding: 20px;
@@ -318,7 +318,16 @@ nav {
 .column1{
   margin-top: 2em;
 }
+.copyright {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: -9em;
+}
 .fot-btn:hover{
   text-decoration: underline;
   color: lightblue;
 }
+
+/* footer ends here */
