@@ -147,67 +147,74 @@ li {
 
 /* Footer */
 
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  /* Logo footer */
-  .logo-nav{
-    display: flex;
-    height: 20em;
-    width: 20em;
-  }
-  
-  .fot-sec{
-    margin-top: 5em;
-  }
-  
-  .foot-h2{
-    margin-top: 4em;
-    margin-left: -2em;
-  }
-  
-  /* This is for links */
-  
-  .astyle{
-    color: aliceblue;
-    text-decoration: none;
-    padding-top: 1.15em;
-  }
-  
-  /* This is for icons */
-  
-  .fa-solid{
-    color: aliceblue;
-    padding-top: 1.15em;
-    padding-right: 0.5em
-  }
-  
-  .fa-brands{
-    color: aliceblue;
-    padding-top: 1.15em;
-    padding-right: 0.5em;
-  }
-  
-  .fot-btn {
-    text-decoration: none;
-    color: black;
-    padding: 0.5em;
-    margin:1em;
-    color: aliceblue;
-  }
-  
-  .column1{
-    margin-top: 2em;
-  }
-  .fot-btn:hover{
-    text-decoration: underline;
-    color: lightblue;
-  }
- 
- 
- /* footer ends here */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Logo footer */
+.logo-nav{
+  display: flex;
+  height: 20em;
+  width: 20em;
+}
+
+.fot-sec{
+  margin-top: 5em;
+}
+
+.foot-h2{
+  margin-top: 4em;
+  margin-left: -2em;
+}
+
+/* This is for links */
+
+.astyle{
+  color: aliceblue;
+  text-decoration: none;
+  padding-top: 1.15em;
+}
+
+/* This is for icons */
+
+.fa-solid{
+  color: aliceblue;
+  padding-top: 1.15em;
+  padding-right: 0.5em
+}
+
+.fa-brands{
+  color: aliceblue;
+  padding-top: 1.15em;
+  padding-right: 0.5em;
+}
+
+.fot-btn {
+  text-decoration: none;
+  color: black;
+  padding: 0.5em;
+  margin:1em;
+  color: aliceblue;
+}
+.fot-btn:hover{
+  text-decoration: underline;
+  color: lightblue;
+}
+
+.column1{
+  margin-top: 2em;
+}
+.copyright {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: -7em;
+}
+
+
+/* footer ends here */
